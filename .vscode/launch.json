@@ -1,0 +1,27 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Laravel Artisan Command",
+            "type": "php",
+            "request": "launch",
+            "program": "/Users/willsun/Documents/UUID/artisan",
+            "args": ["system:report"],
+            "cwd": "/Users/willsun/Documents/UUID",
+            "port": 9003,
+            "pathMappings": {
+                "/path/to/laravel/project/on/server": "/Users/willsun/Documents/UUID"
+            }
+        },
+        {
+            "name": "Listen for Xdebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9003,
+            "pathMappings": {
+                "/path/to/laravel/project/on/server": "/Users/willsun/Documents/UUID"
+            }
+        }
+    ]
+}
